@@ -1,0 +1,65 @@
+    1  history
+    2  git config --global user.name "Yevhenii Pyrozhok"
+    3  git config --global user.email "miloigrovoe@gmail.com.com"git config --global --list
+    4  git config --global --list
+    5  git clone https://github.com/EvgeniyPirozhok/HW_10.git
+    6  cd HW_10touch text_ignore.txt
+    7  ls
+    8  touch text_ignore.txt
+    9  ls
+   10  echo "text_ignore.txt" >> .gitignore
+   11  cat .gitignore
+   12  git status
+   13  git status
+   14  pwd
+   15  ls
+   16  cd HW_10
+   17  ls -a
+   18  git status
+   19  git status
+   20  git add .
+   21  git status
+   22  git commit -m "Ignore text_ignore.txt in .gitignore"
+   23  touch main_test.txt
+   24  git add .
+   25  git commit -m "Add main_test.txt"
+   26  git checkout -b develop
+   27  touch develop_test.txt
+   28  git add .
+   29  git commit -m "Add develop_test.txt"
+   30  echo "just a small change" >> develop_test.txt
+   31  git status
+   32  git add .
+   33  git commit -m "Update develop_test.txt with a small change"
+   34  git checkout main
+   35  git push
+   36  git push
+   37  6955PY@a
+   38  git checkout main
+   39  git merge develop
+   40  git log --oneline
+   41  history 0 > command_list.csv
+   42  cat command_list.csv
+   43  git add .
+   44  git commit -m "Add command_list.csv with command history"
+   45  git push origin main
+   46  git push origin main
+   47  git config --global credential.helper osxkeychain
+   48  git push origin main
+   49  git config --global --unset credential.helper
+   50  git push origin main
+   51  git push origin main
+   52  git push origin main
+   53  echo "text_ignore.txt" >> .gitignore
+   54  cat .gitignore
+   55  cat .gitignore
+   56  cat .gitignore
+   57  cat .gitignore
+   58  cat .gitignore
+   59  cat .gitignore
+   60  open -a TextEdit .gitignore
+   61  git status
+   62  git add .
+   63  git commit -m "Add text_ignore.txt to .gitignore"
+   64  git push
+   65  history > command_list.csv
